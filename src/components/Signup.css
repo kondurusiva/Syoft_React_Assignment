@@ -1,0 +1,179 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250vh;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.signup-content {
+  display: flex;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 50%;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.welcome-section {
+  background: #1d3557;
+  color: white;
+  padding: 40px;
+  max-width: 400px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.welcome-section h1 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.welcome-section p {
+  margin: 10px 0;
+}
+
+.form-section {
+  padding: 40px;
+  flex: 1;
+}
+.form-section img {
+  height: 70px;
+}
+.form-section h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.form-section p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='tel'] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='tel']:focus {
+  border-color: #f8f9fa;
+  outline: none;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.terms input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.terms label {
+  font-size: 14px;
+}
+
+@keyframes rainbowGlow {
+  0% {
+    box-shadow:
+      0 0 10px #ff0000,
+      0 0 20px #ff0000,
+      0 0 30px #ff0000,
+      0 0 40px #ff0000;
+    background-color: #ff0000;
+  }
+  20% {
+    box-shadow:
+      0 0 10px #ff7f00,
+      0 0 20px #ff7f00,
+      0 0 30px #ff7f00,
+      0 0 40px #ff7f00;
+    background-color: #ff7f00;
+  }
+  40% {
+    box-shadow:
+      0 0 10px #ffff00,
+      0 0 20px #ffff00,
+      0 0 30px #ffff00,
+      0 0 40px #ffff00;
+    background-color: #ffff00;
+  }
+  60% {
+    box-shadow:
+      0 0 10px #00ff00,
+      0 0 20px #00ff00,
+      0 0 30px #00ff00,
+      0 0 40px #00ff00;
+    background-color: #00ff00;
+  }
+  80% {
+    box-shadow:
+      0 0 10px #0000ff,
+      0 0 20px #0000ff,
+      0 0 30px #0000ff,
+      0 0 40px #0000ff;
+    background-color: #0000ff;
+  }
+  100% {
+    box-shadow:
+      0 0 10px #8b00ff,
+      0 0 20px #8b00ff,
+      0 0 30px #8b00ff,
+      0 0 40px #8b00ff;
+    background-color: #8b00ff;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: blueviolet;
+  cursor: pointer;
+  width: 200px;
+}
+.par {
+  color: #7393b3;
+}
